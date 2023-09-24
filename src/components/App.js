@@ -1,13 +1,19 @@
-import React from 'react'
-import '../styles/App.css';
-const App = () => {
+import React from 'react';
+import DigitalClock from './DigitalClock';
 
+function App() {
   return (
-    <div id="main">
-      <div className="date-time"></div>
+    <div className="App">
+      <DigitalClock />
     </div>
-  )
+  );
 }
 
-
 export default App;
+
+
+
+
+
+
+
